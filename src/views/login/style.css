@@ -1,0 +1,29 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form .email, .login form .password {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0 10px;
+    border: none;
+    width: 200px;
+    background-color: rgb(177, 249, 241);
+}
+
+.login form .email:focus, .login form .password:focus {
+    outline: none;
+}
+
+.btn-login {
+    padding: 8px;
+    border-radius: 20px;
+    outline: none;
+    border-color: #eee;
+    margin-top: 20px;
+    background-color: aqua;
+}
